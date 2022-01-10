@@ -1,0 +1,97 @@
+
+/*mobile*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) { 
+    .gcm_banner_home>.wpb_column {
+        height:500px;
+        max-height: 100%;
+       
+    }
+
+    .gcm_banner_home{
+            background-image: url(http://localhost/guerillacreative/wp-content/uploads/2022/01/gcm-wallpaper-yellow.png) !important;
+            background-position: center !important;
+            background-position-x: center !important;
+            background-position-y: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            
+        }
+
+        .gcm_sep{
+            grid-template-rows: (auto, 1fr);
+            grid-template-areas:
+            "1"
+            "2";
+
+        }
+
+    }
+
+
+/*ipads tables*/
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+    .gcm_banner_home>.wpb_column {
+        height:700px;
+        max-height: 100%;
+       
+    }
+  
+    .gcm_sep{
+        grid-template-rows: (auto, 1fr);
+        grid-template-areas:
+        "1"
+        "2";
+
+    }
+}
+
+/*small screen*/
+@media screen and (min-width: 769px) and (max-width: 1024px) { 
+   
+
+    .gcm_sep{
+        grid-template-rows: (auto, 1fr);
+        grid-template-areas:
+        "1"
+        "2";
+
+    }
+}
+
+
+/*desktop large screen*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) { 
+    
+
+}
+
+
+/*wide screen*/
+@media screen and (min-width: 1201px) and (max-width: 1439px) { 
+    
+
+}
+
+/*wide screen*/
+@media screen and (min-width: 1440) and (max-width: 1920px) { 
+    
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    
+    .gcm_banner_home{
+        background-image: url(http://localhost/guerillacreative/wp-content/uploads/2022/01/gcm-wallpaper-yellow.png) !important;
+        background-position: center !important;
+        background-position-x: center !important;
+        background-position-y: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        
+    }
+
+ 
+}
