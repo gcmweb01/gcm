@@ -33,6 +33,9 @@
     --radius-banner: clamp(90px, 21.962vw, 200px);
     --menu-font: clamp(9px, 1.171vw, 16px);
     --big-space: clamp(65px, 9.517vw, 130px);
+    --big-text: clamp(45px, 11.420vw, 156px);
+    --grid-gap-q: clamp(5px, 8.346vw, 100px);
+    /* --position-q: clamp(0px, 4.392vw, -60px); */
 }
 
 ::selection {

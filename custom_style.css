@@ -17,6 +17,41 @@
     text-align: center;
 }
 
+.gcm_head_I_center_y{
+    font-size: var(--text-h1);
+    color:var(--primary);
+    font-weight: 600;
+    text-align: center;
+}
+
+.gcm_head_I_center_w{
+    font-size: var(--text-h1);
+    color:var(--light);
+    font-weight: 600;
+    line-height:var(--text-line-h);
+    text-align: center;
+}
+
+.gcm_head_I_center_add_to_q{
+    font-size: var(--big-text);
+    color:var(--light);
+    font-weight: 600;
+    text-align: center;
+}
+
+.gcm_head_IV_w{
+    font-size: var(--text-h4);
+    color:var(--light);
+    font-weight: 600;
+    
+}
+
+.add_to_q_text{
+    font-size: var(--text-h4);
+    color:var(--secondary);
+    font-weight:600;
+}
+
 .gcm_text{
     font-size: var(--text-p);
     color:var(--secondary);
@@ -24,10 +59,31 @@
     line-height:27px;
 }
 
+.gcm_text_q{
+    font-size: var(--text-h4);
+    color:var(--secondary);
+    font-weight:600;
+    line-height:27px;
+    text-align: center;
+}
+
 .gcm_sub_text{
-    font-size: var(--text-h3);
+    font-size: var(--text-h4);
     line-height:27px;
     text-align:center;
+    text-transform: capitalize;
+    font-weight:600;
+    
+}
+
+.gcm_sub_text_w{
+    font-size: var(--text-h4);
+    line-height:27px;
+    text-align:center;
+    text-transform: capitalize;
+    font-weight:600;
+    color:var(--light);
+    
 }
 
 
@@ -38,15 +94,55 @@
     text-align:center;
 }
 
+
+.gcm_text_I_w{
+    font-size: var(--text-p);
+    color:var(--light);
+    line-height:27px;
+    text-align:center;
+}
+
+.gcm_text_I_w_left{
+    font-size: var(--text-p);
+    color:var(--light);
+    line-height:27px;
+    text-align:left;
+}
+
 .gcm_text_sm{
     width:1000px;
     max-width:100%;
     margin:auto;
 }
 
+.gcm_text_sm_w{
+    width:700px;
+    max-width:100%;
+    margin:auto;
+}
 
+/*color only*/
+.indi-color{
+    color:#ffd200;
+}
 
 /*button*/
+
+#btn.gcm_btn_text_yellow {
+    font-size: 16px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width:100%!important;
+    background-color:var(--secondary);
+    height:53px;
+    color:var(--primary);
+    border-radius:10px;
+    border: 3px solid #292929;
+    font-weight: 500;
+}
+
 
 #btn.gcm_btn {
     font-size: 16px;
@@ -62,7 +158,6 @@
     border: 3px solid #292929;
     font-weight: 500;
 }
-
 
 
 #btn_outline{
@@ -114,11 +209,9 @@ font-weight: 500;
     font-weight: 500;
     font-size: var(--menu-font) !important;   
 }
+
 .main-nav .menu > li.current-menu-item > a{
-    color:var(--secondary) !important;
-    
-    
-    
+    color:var(--secondary) !important;  
 }
 
 .main-nav .menu > li > a:hover {
@@ -132,9 +225,10 @@ font-weight: 500;
     max-height: 100%;
     max-width: var(--max-width);
     margin:auto;
-    padding: 0px 15px 0px 15px
+    padding: 0px 15px 0px 15px;
     
 }
+
 
 .see_btn{
     grid-area: 1;
@@ -177,9 +271,124 @@ font-weight: 500;
 
 .section-height{
     padding-top:130px;
+    padding-bottom:130px;
 }
 
 .btn_center{
     text-align: center;
     padding-top:65px;
+}
+
+.btn_left{
+    text-align: left;
+    padding-top:65px;
+}
+
+
+/* get a quote home */
+.get-a-q >.wpb_column{
+    height:61.5vh;
+    max-height: 100%;
+    margin:auto;
+    max-width: var(--max-width); 
+}
+
+.gcm_des-sec1{
+    /* grid-area: 1; */
+    letter-spacing: 7px;
+}
+
+.gcm_des-sec2{
+    /* grid-area: 2; */
+    letter-spacing: 7px;
+}
+
+.sec_1_row{
+    display:flex;
+    grid-template-columns:auto;
+    grid-template-areas:"1 2";
+    grid-gap: var(--grid-gap-q);
+    justify-content: center;
+    margin-bottom: -60px;
+    
+}
+
+
+.section-let-us-help{
+    background-image: url(http://localhost/guerillacreative/wp-content/uploads/2022/01/Flyer-3.png) !important;
+    background-position: center !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 10px;
+    border-bottom-left-radius: var(--radius-banner);
+    height:66.6vh;
+    max-height:100%;
+}
+
+
+/*end of home page*/
+
+/*about us*/
+
+
+/*banner*/
+.gcm_banner_company>.wpb_column {
+    height:79.7vh;
+    max-height: 100%;
+    max-width: var(--max-width);
+    margin:auto;
+    padding: 0px 15px 0px 15px;
+    
+}
+
+/*banner background*/
+.gcm_banner_company{
+    background-image: url(http://localhost/guerillacreative/wp-content/uploads/2022/01/Group-about-company.png) !important;
+    background-position: center !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+   
+    
+}
+
+
+/*footer section*/
+h1.gcm_head_I_foo{
+    font-size: var(--text-h1);
+    color:var(--secondary);
+    font-weight: 600;
+    line-height:var(--text-line-h);
+}
+
+p.gcm_text_foo{
+    font-size: var(--text-p);
+    color:var(--secondary) !important;
+    font-weight:600;
+    line-height:27px;
+}
+
+.footer-container.color-scheme-light a{
+    color:var(--secondary) !important;
+    font-weight: 600;
+}
+
+
+h3.gcm_head_III_foo{
+    font-size: var(--text-h2);
+    color:var(--secondary);
+    font-weight: 600;
+    line-height:var(--text-line-h);
+}
+
+p#foo-copy {
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+.footer-container.color-scheme-light .main-footer+.copyrights-wrapper .min-footer {
+    border-top: 1px solid rgb(8 8 8);
 }
