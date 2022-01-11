@@ -39,6 +39,14 @@
     text-align: center;
 }
 
+.gcm_head_II{
+    font-size: var(--text-h2);
+    color:var(--secondary);
+    font-weight: 600;
+    line-height:var(--text-line-h);
+}
+
+
 .gcm_head_IV_w{
     font-size: var(--text-h4);
     color:var(--light);
@@ -86,6 +94,16 @@
     
 }
 
+.gcm_sub_text_y{
+    font-size: var(--text-h4);
+    line-height:27px;
+    text-align:center;
+    text-transform: capitalize;
+    font-weight:600;
+    color:var(--primary);
+    
+}
+
 
 .gcm_text_I{
     font-size: var(--text-p);
@@ -121,9 +139,19 @@
     margin:auto;
 }
 
+.text-center{
+    text-align: left;
+}
+
 /*color only*/
 .indi-color{
     color:#ffd200;
+}
+
+/*spaces*/
+.big-space{
+    padding-top:var(--big-space);
+    padding-bottom:var(--big-space);
 }
 
 /*button*/
@@ -332,6 +360,11 @@ font-weight: 500;
 
 /*about us*/
 
+.left-about-section{
+    height:718px;
+    max-height:100%;
+}
+
 
 /*banner*/
 .gcm_banner_company>.wpb_column {
@@ -355,6 +388,41 @@ font-weight: 500;
     
 }
 
+.about-we-believe{
+    padding-right:50px;
+}
+
+
+/*END of about us section*/
+
+/*CONTACT US SECTION*/
+
+.gcm_banner_contact>.wpb_column {
+    height:51vh;
+    max-height: 100%;
+    max-width: var(--max-width);
+    margin:auto;
+    padding: 0px 15px 0px 15px;
+    
+}
+
+.gcm_banner_contact{
+    background-image: url(http://localhost/guerillacreative/wp-content/uploads/2022/01/Group-about-company.png) !important;
+    background-position: center !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+   
+    
+}
+
+form .wpcf7-list-item {
+    font-weight: 400;
+    display: block;
+}
+
+/*END OF CONTACT US SECTIONV
 
 /*footer section*/
 h1.gcm_head_I_foo{
@@ -392,3 +460,18 @@ p#foo-copy {
 .footer-container.color-scheme-light .main-footer+.copyrights-wrapper .min-footer {
     border-top: 1px solid rgb(8 8 8);
 }
+
+
+.col.icon-foo-1 {
+    display: inline-grid;
+    grid-gap: 10px;
+    margin: 0px 10px;
+}
+
+.footer-container{
+    border-top: 14px solid #FFC700;
+}
+
+/*END OF FOOTER SECTION*/
+
+/*  */
