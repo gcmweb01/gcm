@@ -156,6 +156,45 @@
 
 /*button*/
 
+
+.basel-navigation .menu>li.callto-btn>a{
+    line-height: 24px !important;
+    background-color:var(--secondary) !important;
+    border-radius:10px;
+    border: 3px solid #292929;
+    color:var(--primary);
+}
+
+
+.basel-navigation .menu>li.callto-btn>a:hover{
+    line-height: 24px !important;
+    background-color:transparent !important;
+    border-radius:10px;
+    border: 3px solid #292929;
+    color:var(--secondary) !important;
+    opacity:1 !important;
+}
+
+
+.main-nav .menu > li.current-menu-item > a {
+    
+    color:var(--secondary) !important;
+   
+}
+
+
+/* .basel-navigation .menu>li.callto-btn>a :active{
+    line-height: 24px !important;
+    background-color:var(--secondary) !important;
+    border-radius:10px;
+    border: 3px solid #292929;
+    color:var(--primary) !important;
+} */
+
+.basel-navigation .menu>li.callto-btn.current-menu-item>a{
+    color:var(--primary);
+}
+
 #btn.gcm_btn_text_yellow {
     font-size: 16px;
     padding-top: 21px;
@@ -238,9 +277,6 @@ font-weight: 500;
     font-size: var(--menu-font) !important;   
 }
 
-.main-nav .menu > li.current-menu-item > a{
-    color:var(--secondary) !important;  
-}
 
 .main-nav .menu > li > a:hover {
     color:var(--secondary) !important;
@@ -407,7 +443,7 @@ font-weight: 500;
 }
 
 .gcm_banner_contact{
-    background-image: url(http://localhost/guerillacreative/wp-content/uploads/2022/01/Group-about-company.png) !important;
+    background-image: url(http://localhost/guerillacreative/wp-content/uploads/2022/01/Group-111.png) !important;
     background-position: center !important;
     background-position-x: center !important;
     background-position-y: center !important;
@@ -422,7 +458,12 @@ form .wpcf7-list-item {
     display: block;
 }
 
-/*END OF CONTACT US SECTIONV
+input[type=submit].btn-color-primary {
+    color: #000;
+    font-weight:600;
+}
+
+/*END OF CONTACT US SECTION*/
 
 /*footer section*/
 h1.gcm_head_I_foo{
