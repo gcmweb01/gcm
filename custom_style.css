@@ -162,7 +162,7 @@
     background-color:var(--secondary) !important;
     border-radius:10px;
     border: 3px solid #292929;
-    color:var(--primary);
+    color:var(--primary) !important;
 }
 
 
@@ -176,20 +176,11 @@
 }
 
 
-.main-nav .menu > li.current-menu-item > a {
-    
+.main-nav .menu>li>a{
     color:var(--secondary) !important;
-   
 }
 
 
-/* .basel-navigation .menu>li.callto-btn>a :active{
-    line-height: 24px !important;
-    background-color:var(--secondary) !important;
-    border-radius:10px;
-    border: 3px solid #292929;
-    color:var(--primary) !important;
-} */
 
 .basel-navigation .menu>li.callto-btn.current-menu-item>a{
     color:var(--primary);
