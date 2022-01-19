@@ -421,6 +421,30 @@ font-weight: 500;
 
 /*END of about us section*/
 
+/* START OF PROJECT PAGE*/
+
+/*banner*/
+.gcm_banner_project>.wpb_column {
+    height:79.7vh;
+    max-height: 100%;
+    max-width: var(--max-width);
+    margin:auto;
+    padding: 0px 15px 0px 15px;
+    
+}
+
+/*banner background*/
+.gcm_banner_project{
+    background-image: url(http://localhost/guerillacreative/wp-content/uploads/2022/01/Group-112.png) !important;
+    background-position: center !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+   
+    
+}
+
 /*CONTACT US SECTION*/
 
 .gcm_banner_contact>.wpb_column {
@@ -505,4 +529,4 @@ p#foo-copy {
 
 /*END OF FOOTER SECTION*/
 
-/*  */
+
